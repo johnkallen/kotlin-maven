@@ -6,6 +6,31 @@
 	},
 	"item": [
 		{
+			"name": "GET health test",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "GET all messages",
 			"request": {
 				"method": "GET",
@@ -40,7 +65,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"text\": \"Jumpin' Johnny K\"\n}",
+					"raw": "{\n    \"text\": \"Billy Bob\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -74,14 +99,14 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8080/419b3786-5c36-4464-87f4-2882aa905067",
+					"raw": "http://localhost:8080/ad852526-4e64-42b3-840f-47096138f085",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"419b3786-5c36-4464-87f4-2882aa905067"
+						"ad852526-4e64-42b3-840f-47096138f085"
 					]
 				}
 			},
